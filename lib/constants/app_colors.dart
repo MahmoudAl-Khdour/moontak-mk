@@ -19,9 +19,9 @@ class AppColors {
   static const Color _appRedAccentColor = Colors.redAccent;
   static const Color _appSuccessColor = Colors.green;
 
-  static const Color _appDefaultColor = Color(0xFF274884);
+  static const Color _appDefaultColor = Color(0xFF17ABB2);
 
-  static const Color _appBackgroundColor = Color(0xFFEFEFF7);
+  static const Color _appBackgroundColor = Color(0xFF18A3AA);
 
   static const Color _appTextColor = Colors.black54;
 
@@ -55,16 +55,16 @@ class AppColors {
   static const MaterialColor _kPrimaryColor = MaterialColor(
     0xFF274884,
     <int, Color>{
-      50: Color(0xFF274884),
-      100: Color(0xFF274884),
-      200: Color(0xFF274884),
-      300: Color(0xFF274884),
-      400: Color(0xFF274884),
-      500: Color(0xFF274884),
-      600: Color(0xFF274884),
-      700: Color(0xFF274884),
-      800: Color(0xFF274884),
-      900: Color(0xFF274884),
+      50: Color(0xFF17ABB2),
+      100: Color(0xFF17ABB2),
+      200: Color(0xFF17ABB2),
+      300: Color(0xFF17ABB2),
+      400: Color(0xFF17ABB2),
+      500: Color(0xFF17ABB2),
+      600: Color(0xFF17ABB2),
+      700: Color(0xFF17ABB2),
+      800: Color(0xFF17ABB2),
+      900: Color(0xFF17ABB2),
     },
   );
 

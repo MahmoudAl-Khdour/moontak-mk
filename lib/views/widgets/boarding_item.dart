@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:moontak/constants/app_defaults.dart';
+import 'package:moontak/constants/app_sizes.dart';
 import 'package:moontak/models/boarding.dart';
 
 class BuildBoardingItem extends StatelessWidget {
@@ -8,27 +10,33 @@ class BuildBoardingItem extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    AppSizeConfig.init(context);
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        Expanded(
-          child: Image(
-            image: AssetImage(model.image),
+        Image(
+          height: AppSizeConfig.screenHeight * 0.4,
+          width: AppSizeConfig.screenHeight,
+          image: AssetImage(
+            model.image,
           ),
         ),
-        const SizedBox(
-          height: 20,
+        SizedBox(
+          height: AppDefaults.defaultVerticalSpaceBetweenWidget,
         ),
-        Text(
-          model.title,
-          style: const TextStyle(
-            fontSize: 24,
-            fontWeight: FontWeight.bold,
-            color: Colors.black,
+        Align(
+          alignment: Alignment.topLeft,
+          child: Text(
+            model.title,
+            style: const TextStyle(
+              fontSize: 24,
+              fontWeight: FontWeight.bold,
+              color: Colors.black,
+            ),
           ),
         ),
-        const SizedBox(
-          height: 20,
+        SizedBox(
+          height: AppDefaults.defaultVerticalSpaceBetweenWidget,
         ),
         Text(
           model.body,

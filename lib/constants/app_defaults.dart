@@ -11,9 +11,9 @@ class AppDefaults {
   static const double _defaultLeftPadding = 20.0;
   static const double _defaultLargePadding = 20.0;
 
-  static const double _defaultRightRadius = 20.0;
+  static const double _defaultRightRadius = 25.0;
 
-  static const double _defaultLeftRadius = 20.0;
+  static const double _defaultLeftRadius = 25.0;
   static const double _defaultButtonVerticalPadding = 11.0;
   static const double _defaultVerticalSpaceBetweenSmallWidget = 5.0;
   static const double _defaultHorizontalSpaceBetweenSmallWidget = 5.0;

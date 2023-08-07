@@ -4,7 +4,11 @@ class AppTranslation extends Translations {
   @override
   Map<String, Map<String, String>> get keys => {
         // Arabic
-        'ar': {},
+        'ar': {
+          'Welcome to moontak': 'اهلاً بك في مونتك',
+          'Which language do you prefer?': 'اي لغة تفضل؟',
+          'Continue': 'استمرار',
+        },
         // English
         'en': {},
       };
