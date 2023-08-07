@@ -1,0 +1,41 @@
+name: moontak
+description: It specializes in selling to retail stores such as supermarkets/hypermarkets Where the goods will be offered at the best prices, the highest quality, and free delivery
+
+publish_to: 'none' #
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.6 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+    
+  get: ^4.6.5
+  fluttertoast: ^8.2.2
+  get_storage: ^2.1.1
+  url_launcher: ^6.1.12
+  permission_handler: 10.4.3
+  image_picker: ^1.0.2
+  connectivity_plus: ^4.0.2
+  loading_animation_widget: ^1.2.0+4
+  page_transition: ^2.0.9
+  smooth_page_indicator: ^1.1.0
+  buildcondition: ^0.0.4
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.2
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/moontak_splash.gif
+    - assets/images/place_holder.png
