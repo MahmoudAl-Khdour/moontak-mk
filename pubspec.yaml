@@ -27,6 +27,7 @@ dependencies:
 
 
 
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
@@ -43,6 +44,7 @@ flutter:
     - assets/icons/icon_2.png
     - assets/icons/jordan_icon.png
     - assets/icons/united_icon.png
+    - assets/images/background.png
     - assets/images/delivery.gif
     - assets/images/logo_splash.png
     - assets/images/moontak_logo.png

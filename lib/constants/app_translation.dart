@@ -8,6 +8,8 @@ class AppTranslation extends Translations {
           'Welcome to moontak': 'اهلاً بك في مونتك',
           'Which language do you prefer?': 'اي لغة تفضل؟',
           'Continue': 'استمرار',
+          'Sign in': 'تسجيل الدخول',
+          'Welcome': 'اهلاً بك',
         },
         // English
         'en': {},

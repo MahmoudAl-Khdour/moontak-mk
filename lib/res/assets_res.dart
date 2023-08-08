@@ -9,6 +9,7 @@ class AssetsRes {
   static const String ICON_2 = 'assets/icons/icon_2.png';
   static const String JORDAN_ICON = 'assets/icons/jordan_icon.png';
   static const String UNITED_ICON = 'assets/icons/united_icon.png';
+  static const String BACKGROUND = 'assets/images/background.png';
   static const String DELIVERY = 'assets/images/delivery.gif';
   static const String LOGO_SPLASH = 'assets/images/logo_splash.png';
   static const String MOONTAK_LOGO = 'assets/images/moontak_logo.png';

@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:moontak/constants/app_colors.dart';
 import 'package:moontak/constants/app_sizes.dart';
 
 class DefaultButtonWidget extends StatelessWidget {
@@ -50,6 +51,9 @@ class DefaultButtonWidget extends StatelessWidget {
             minimumSize: Size(width, height),
             backgroundColor: background,
             shape: RoundedRectangleBorder(
+              side: BorderSide(
+                color: AppColors.appBackgroundColor,
+              ),
               borderRadius: BorderRadius.circular(radius),
             ),
           ),

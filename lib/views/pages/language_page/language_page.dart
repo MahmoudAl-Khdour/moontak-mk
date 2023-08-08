@@ -5,9 +5,9 @@ import 'package:moontak/constants/app_defaults.dart';
 import 'package:moontak/constants/app_images.dart';
 import 'package:moontak/constants/app_sizes.dart';
 import 'package:moontak/controllers/language_controller.dart';
+import 'package:moontak/views/pages/signin_page/signin_page.dart';
 import 'package:moontak/views/widgets/default_button_widget.dart';
 import 'package:moontak/views/widgets/language_item.dart';
-import 'package:moontak/views/widgets/sign_widget.dart';
 
 class LanguagePage extends GetWidget<LanguageController> {
   const LanguagePage({super.key});
@@ -90,7 +90,7 @@ class LanguagePage extends GetWidget<LanguageController> {
             ),
             DefaultButtonWidget(
               onTap: () {
-                Get.to(SignWidget());
+                Get.to(const SignInPage());
               },
               height: 50,
               radius: AppDefaults.defaultLeftRadius,

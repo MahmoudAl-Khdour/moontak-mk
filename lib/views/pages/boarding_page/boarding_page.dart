@@ -9,7 +9,7 @@ import 'package:moontak/constants/app_defaults.dart';
 import 'package:moontak/constants/app_images.dart';
 import 'package:moontak/constants/app_sizes.dart';
 import 'package:moontak/data/providers/cache_utils.dart';
-import 'package:moontak/views/pages/signin_page/sign_page.dart';
+import 'package:moontak/views/pages/signin_page/signin_page.dart';
 import 'package:moontak/views/widgets/boarding_item.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
 
