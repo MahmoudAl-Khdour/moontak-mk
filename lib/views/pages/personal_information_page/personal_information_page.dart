@@ -32,7 +32,7 @@ class PersonalInformationPage extends StatelessWidget {
                 height: AppDefaults.defaultVerticalSpaceBetweenBigWidget,
               ),
               Text(
-                'Establishment owner*'.tr,
+                'Choose your address*'.tr,
                 style: Theme.of(context).textTheme.bodySmall!.copyWith(
                       color: AppColors.appBackgroundColor,
                     ),
@@ -152,6 +152,18 @@ class PersonalInformationPage extends StatelessWidget {
                 height: 50,
                 radius: AppDefaults.defaultLeftRadius,
                 text: 'Continue'.tr,
+                background: AppColors.appBackgroundColor,
+              ),
+              SizedBox(
+                height: AppDefaults.defaultVerticalSpaceBetweenWidget,
+              ),
+              DefaultButtonWidget(
+                onTap: () {
+                  Get.back();
+                },
+                height: 50,
+                radius: AppDefaults.defaultLeftRadius,
+                text: 'Back'.tr,
                 background: AppColors.appBackgroundColor,
               ),
             ],

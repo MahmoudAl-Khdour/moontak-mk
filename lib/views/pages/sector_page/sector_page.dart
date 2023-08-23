@@ -3,6 +3,7 @@ import 'package:get/get.dart';
 import 'package:moontak/constants/app_colors.dart';
 import 'package:moontak/constants/app_defaults.dart';
 import 'package:moontak/controllers/sector_controller.dart';
+import 'package:moontak/views/pages/address_page/address_page.dart';
 import 'package:moontak/views/widgets/default_button_widget.dart';
 import 'package:moontak/views/widgets/drop_down_widget.dart';
 import 'package:moontak/views/widgets/sign_widget.dart';
@@ -84,10 +85,24 @@ class SectorPage extends GetWidget<SectorController> {
                 height: AppDefaults.defaultVerticalSpaceBetweenBigWidget * 1.5,
               ),
               DefaultButtonWidget(
-                onTap: () {},
+                onTap: () {
+                  Get.to(() => const AddressPage());
+                },
                 height: 50,
                 radius: AppDefaults.defaultLeftRadius,
                 text: 'Continue'.tr,
+                background: AppColors.appBackgroundColor,
+              ),
+              SizedBox(
+                height: AppDefaults.defaultVerticalSpaceBetweenWidget,
+              ),
+              DefaultButtonWidget(
+                onTap: () {
+                  Get.back();
+                },
+                height: 50,
+                radius: AppDefaults.defaultLeftRadius,
+                text: 'Back'.tr,
                 background: AppColors.appBackgroundColor,
               ),
             ],
